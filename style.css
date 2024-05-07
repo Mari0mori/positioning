@@ -1,0 +1,65 @@
+
+  .right {
+    float:right;
+    padding-right:10px;
+    text-decoration:none;
+  }
+  header {
+    background-color: rgb(172, 0, 252);
+    color: rgb(252, 0, 0);
+    padding: 20px;
+    font-size:20px;
+    margin:0;
+  }
+  header div {
+    text-decoration:none;
+  }
+ body{
+    margin:0;
+  }
+a {
+    text-decoration:none;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#imagesContainer {
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  .image {
+    background-color: #abc;
+    float: left;
+    padding: 20px;
+    margin: 0 10px; 
+  }
+  #cardsContainer {
+    display: inline-block;
+    padding:40px;
+  }
+  
+  .card {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 10px;
+    margin-top: 10px;
+    float:left;
+    font-size:10px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius:2%;
+   border:1px solid rgb(172, 0, 252);
+   font-family:papyrus;
+  }
+  .more {
+    background-color:rgb(172, 0, 252);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Make the button a block element */
+  margin-top: auto; /* Align button to bottom of card */
+  width: 100%;
+  }
